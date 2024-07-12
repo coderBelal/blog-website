@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-page">
         <div className="input">
           <div className="about-text">
-            <p>Hi, I am Belal </p>
+            <p> Belal </p>
           </div>
         </div>
       </div>
