@@ -79,7 +79,5 @@ button:hover {
     flex-direction: column;
     margin-right: 60%;
   }
-  .icon {
-    display: none;
-  }
+
 }
