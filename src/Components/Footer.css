@@ -105,4 +105,7 @@ gap: 12px;
     width: 100%;
     text-align: center;
   }
+  .icon {
+margin-left:30px;
+}
 }
