@@ -1,0 +1,91 @@
+.blog-form {
+    margin-bottom: 20px;
+  }
+  
+  .blog-form div {
+    margin-bottom: 10px;
+  }
+  
+  .blog-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .blog-form input,
+  .blog-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .blog-form button {
+    background-color: #f8f8f8;
+    border: 1px solid orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100px;
+    transition: background-color 0.3s;
+  }
+  
+  .blog-list .blog-post {
+
+    padding: 10px 0;
+  }
+  
+  .blog-list .blog-post h2 {
+    margin: 0 0 10px;
+  }
+  
+  .blog-list .blog-post p {
+    margin: 0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .blog-form input,
+    .blog-form textarea {
+      padding: 6px;
+      width: 80%;
+      margin-left: 20px;
+    }
+  
+    .blog-form button {
+     margin-left: 20px;
+      padding: 10px;
+    
+    }
+  
+    .blog-list .blog-post {
+      padding: 15px 0;
+    }
+  
+    .blog-list .blog-post h2 {
+      font-size: 1.5em;
+    }
+  
+    .blog-list .blog-post p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-form input,
+    .blog-form textarea {
+      padding: 4px;
+    }
+  
+ 
+    .blog-list .blog-post {
+      padding: 10px 0;
+    }
+  
+    .blog-list .blog-post h2 {
+      font-size: 1.2em;
+    }
+  
+    .blog-list .blog-post p {
+      font-size: 0.9em;
+    }
+  }

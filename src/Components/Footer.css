@@ -1,0 +1,108 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  flex-wrap: wrap;
+}
+
+.footer .left,
+.footer .mid,
+.footer .right {
+  flex: 1;
+  margin: 10px;
+}
+
+
+.footer .left img {
+  width: 200px;
+
+  margin: 10px 0;
+}
+
+.footer .left h3,
+.footer .mid h3,
+.footer .right h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer .left p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.footer .mid .info {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.footer .mid .name {
+  font-weight: bold;
+  display: block;
+}
+
+.footer .mid .desc,
+.footer .mid .title {
+  font-size: 0.9rem;
+}
+.title {
+  color: #aaa;
+}
+
+.footer .right .comment p {
+  margin: 10px 0;
+}
+
+.footer .right .comment span {
+  display: block;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+.social-icon {
+  display: flex;
+background: none;
+gap: 12px;
+}
+
+.icon {
+  font-size: 24px;
+
+  border-radius: 50%;
+}
+
+.facebook {
+  color: #3b5998; 
+}
+.whatsapp {
+  color: #25D366; 
+}
+
+.instagram {
+  color: #C13584; 
+}
+
+.github {
+  color: #333; 
+}
+
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .left,
+  .footer .mid,
+  .footer .right {
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+}

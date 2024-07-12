@@ -1,0 +1,84 @@
+/* Navbar.css */
+.nav {
+  border-bottom: 1px solid gray;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+.card {
+  background-color: rgb(226, 222, 222);
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  opacity: 0;
+}
+.card p {
+  margin-left: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+
+    border: none;
+  }
+
+  .hamburger {
+    display: block;
+    align-self: flex-end;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .navbar.open {
+    display: flex;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  .navbar li a {
+    padding: 12px 24px;
+    width: 100%;
+    text-align: left;
+  }
+}
